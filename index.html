@@ -139,7 +139,7 @@
     <div id="snap-list"></div>
   </div>
 
-  <script src="data.js"></script>
+  <script>document.write('<script src="data.js?v=' + Date.now() + '"><\/script>');</script>
   <script>
   // ═══════════════ 翻譯字典 ═══════════════
   const I18N = {
@@ -290,12 +290,14 @@
   }
   function daysBetween(a, b) { return (new Date(b) - new Date(a)) / 86400000; }
 
-  // 比對主鍵：UID 優先、名字備援
+  // 比對主鍵：entry.uid 優先（新快照直接帶），再 UID map 查，最後名字備援
   function playerKey(e) {
+    if (e.uid) return 'uid:' + e.uid;
     const rec = UID_PLAYERS[e.player];
     return rec ? 'uid:' + rec.uid : 'name:' + e.player;
   }
   function playerUid(e) {
+    if (e.uid) return e.uid;
     const rec = UID_PLAYERS[e.player];
     return rec ? rec.uid : '';
   }
