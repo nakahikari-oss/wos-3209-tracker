@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow, noarchive">
-  <meta name="googlebot" content="noindex, nofollow, noarchive">
+  <!-- 內部頁：禁止所有搜尋引擎收錄／快取／跟隨連結。搬到任何網域都要保留這兩行。 -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
   <title>3209 轉州分數追蹤（內部用）</title>
   <style>
     :root {
@@ -309,8 +311,11 @@
     const bOnly = bEntries.filter(e => !aKeys.has(playerKey(e)));
     const pairs = new Map();
     for (const a of aOnly) {
+      const aUid = playerUid(a);
       let best = null;
       for (const b of bOnly) {
+        const bUid = playerUid(b);
+        if (aUid && bUid && aUid !== bUid) continue;
         if (a.alliance !== b.alliance) continue;
         const ratio = Math.min(a.score, b.score) / Math.max(a.score, b.score);
         if (ratio < 0.9) continue;
