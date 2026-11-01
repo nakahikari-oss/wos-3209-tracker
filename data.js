@@ -1,7 +1,747 @@
 // 3209 轉州分數快照 — 內部用，絕不公開
 // 由 alliance/transfer-scores/*.json + uid-map.json 自動彙整
-// 最後更新：2026-11-01 00:32
+// 最後更新：2026-11-02 00:26
 window.SNAPSHOTS = [
+{
+  "captured_at": "2026-11-02T00:26+08:00",
+  "snapshot_at": "2026-11-01T23:30+08:00",
+  "snapshot_label": "快照約 23:30",
+  "server": 3209,
+  "server_leader": "Frost Knight",
+  "server_grade": "B+ (戰區生命值)",
+  "entries": [
+    {
+      "rank": 1,
+      "player": "sasa",
+      "alliance": "CAN",
+      "score": 4319374,
+      "uid": "499601482"
+    },
+    {
+      "rank": 2,
+      "player": "克菈莉絲Clarice",
+      "alliance": "qax",
+      "score": 4228710,
+      "uid": "490956386"
+    },
+    {
+      "rank": 3,
+      "player": "Frost Knight",
+      "alliance": "CAN",
+      "score": 4095356,
+      "uid": "500601325",
+      "raw_name_in_game": "꧁༒ꜰrᴏsᴛ ᴋnɪgʜt༒꧂",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 4,
+      "player": "NSuB",
+      "alliance": "Qzx",
+      "score": 3780770,
+      "uid": "500781667"
+    },
+    {
+      "rank": 5,
+      "player": "࿔Bee寶貝兒˖⸝⸝˖˚༊嗡嗡嗡",
+      "alliance": "qax",
+      "score": 3692112,
+      "uid": "491119680"
+    },
+    {
+      "rank": 6,
+      "player": "Jimmy 披星戴月XD",
+      "alliance": "qax",
+      "score": 3628648,
+      "uid": "538035766"
+    },
+    {
+      "rank": 7,
+      "player": "ঌ花願ঌ",
+      "alliance": "qax",
+      "score": 3136246,
+      "uid": "516819775",
+      "raw_name_in_game": "ʚ花願ོ༉༻",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 8,
+      "player": "@₊韓森寶貝兒₊˖°₊",
+      "alliance": "TR1",
+      "score": 2904692,
+      "uid": "496539077",
+      "raw_name_in_game": "@࿔韓森寶貝兒˖⸝⸝˖˚༊",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 9,
+      "player": "秘書阿北",
+      "alliance": "Qzx",
+      "score": 2684259,
+      "uid": "499267406"
+    },
+    {
+      "rank": 10,
+      "player": "被教練說養太胖的天天Happy",
+      "alliance": "CAN",
+      "score": 2408970,
+      "uid": "499145700"
+    },
+    {
+      "rank": 11,
+      "player": "Lady Dimitrescu",
+      "alliance": "CAN",
+      "score": 2405613,
+      "uid": "478493734"
+    },
+    {
+      "rank": 12,
+      "player": "就是愛玩",
+      "alliance": "qax",
+      "score": 2374235,
+      "uid": "503093039"
+    },
+    {
+      "rank": 13,
+      "player": "我很忙",
+      "alliance": "qax",
+      "score": 2369525,
+      "uid": "491086690"
+    },
+    {
+      "rank": 14,
+      "player": "Toryˁ˙͈ᴗ˙͈ˀ?",
+      "alliance": "CAN",
+      "score": 2369293,
+      "uid": "499830547",
+      "raw_name_in_game": "Toryʕ·˕·˵ʔ",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 15,
+      "player": "Alan叔叔",
+      "alliance": "Qzx",
+      "score": 2361519,
+      "uid": "494802539"
+    },
+    {
+      "rank": 16,
+      "player": "Winson",
+      "alliance": "qax",
+      "score": 2184884,
+      "uid": "549159797"
+    },
+    {
+      "rank": 17,
+      "player": "MagnusDraco",
+      "alliance": "CAN",
+      "score": 2069774,
+      "uid": "479670199"
+    },
+    {
+      "rank": 18,
+      "player": "粿粿愛吃棒棒糖",
+      "alliance": "qax",
+      "score": 2068603,
+      "uid": "491003744"
+    },
+    {
+      "rank": 19,
+      "player": "NocturneEmperor",
+      "alliance": "CAN",
+      "score": 2036633,
+      "uid": "493217252"
+    },
+    {
+      "rank": 20,
+      "player": "刀龍傳說",
+      "alliance": "TR1",
+      "score": 2035365,
+      "uid": "474385880"
+    },
+    {
+      "rank": 21,
+      "player": "STUARTDAFREAKPOP",
+      "alliance": "CAN",
+      "score": 2029736,
+      "uid": "482873585"
+    },
+    {
+      "rank": 22,
+      "player": "Alan =_=",
+      "alliance": "CAN",
+      "score": 2017120,
+      "uid": "500535471"
+    },
+    {
+      "rank": 23,
+      "player": "릴리입니다",
+      "alliance": "qax",
+      "score": 2011302,
+      "uid": "492380138"
+    },
+    {
+      "rank": 24,
+      "player": "Vitiate",
+      "alliance": "CAN",
+      "score": 1997409,
+      "uid": "484592099"
+    },
+    {
+      "rank": 25,
+      "player": "_HYOBLACK_ʕ·ᴥ·ʔ",
+      "alliance": "CAN",
+      "score": 1953744,
+      "uid": "491250736",
+      "raw_name_in_game": "_ʜʏᴏʙʟᴀᴄᴋ_ʕ˖͜͡˖ʔ",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 26,
+      "player": "Ruby8",
+      "alliance": "qax",
+      "score": 1920545,
+      "uid": "521187643"
+    },
+    {
+      "rank": 27,
+      "player": "在下小哥哥",
+      "alliance": "qax",
+      "score": 1887902,
+      "uid": "493264266"
+    },
+    {
+      "rank": 28,
+      "player": "昌哥。",
+      "alliance": "qax",
+      "score": 1885497,
+      "uid": "494932936"
+    },
+    {
+      "rank": 29,
+      "player": "Kaikai♡",
+      "alliance": "Qzx",
+      "score": 1874164,
+      "uid": "522646221",
+      "raw_name_in_game": "Kaikaiღ",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 30,
+      "player": "₊大寶貝兒₊˖°₊",
+      "alliance": "qax",
+      "score": 1820956,
+      "uid": "476417990",
+      "raw_name_in_game": "࿔大寶貝兒˖⸝⸝˖˚༊",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 31,
+      "player": "Stan彎道超車",
+      "alliance": "Qzx",
+      "score": 1820745,
+      "uid": "464806557"
+    },
+    {
+      "rank": 32,
+      "player": "Phut ✿",
+      "alliance": "CAN",
+      "score": 1808840,
+      "uid": "429491989",
+      "raw_name_in_game": "ᴾʰᵘᵗ ᭄༊",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 33,
+      "player": "JJJJJ",
+      "alliance": "TR1",
+      "score": 1786197,
+      "uid": "495027480"
+    },
+    {
+      "rank": 34,
+      "player": "自由/TYF",
+      "alliance": "TR1",
+      "score": 1773031,
+      "uid": "502180158"
+    },
+    {
+      "rank": 35,
+      "player": "VMIgeneral98",
+      "alliance": "CAN",
+      "score": 1745053,
+      "uid": "479126334"
+    },
+    {
+      "rank": 36,
+      "player": "_@DORA。潘寶貝兒。₊",
+      "alliance": "qax",
+      "score": 1742093,
+      "uid": "525780866",
+      "raw_name_in_game": "_@ᴅ፝֟ᴏʀᴀ࿔潘寶貝兒˖༊",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 37,
+      "player": "花樂_No money",
+      "alliance": "CAN",
+      "score": 1738249,
+      "uid": "499322757"
+    },
+    {
+      "rank": 38,
+      "player": "洪靜豹JingJing",
+      "alliance": "qax",
+      "score": 1723912,
+      "uid": "528442266"
+    },
+    {
+      "rank": 39,
+      "player": "Manuuu",
+      "alliance": "CAN",
+      "score": 1719885,
+      "uid": "500547129"
+    },
+    {
+      "rank": 40,
+      "player": "AnthonyTheGreat",
+      "alliance": "CAN",
+      "score": 1694325,
+      "uid": "481452041"
+    },
+    {
+      "rank": 41,
+      "player": "Qqqqqq",
+      "alliance": "CAN",
+      "score": 1691777,
+      "uid": "492348685"
+    },
+    {
+      "rank": 42,
+      "player": "MFO 의사",
+      "alliance": "CAN",
+      "score": 1690359,
+      "uid": "493897225"
+    },
+    {
+      "rank": 43,
+      "player": "stella",
+      "alliance": "qax",
+      "score": 1688510,
+      "uid": "490978543"
+    },
+    {
+      "rank": 44,
+      "player": "Aethena",
+      "alliance": "CAN",
+      "score": 1679046,
+      "uid": "500846723"
+    },
+    {
+      "rank": 45,
+      "player": "凜冽夜寒",
+      "alliance": "qax",
+      "score": 1674822,
+      "uid": "507721732"
+    },
+    {
+      "rank": 46,
+      "player": "Perseus_柏修斯",
+      "alliance": "Qzx",
+      "score": 1659209,
+      "uid": "464167381"
+    },
+    {
+      "rank": 47,
+      "player": "Fallon",
+      "alliance": "CAN",
+      "score": 1657144,
+      "uid": "490956201"
+    },
+    {
+      "rank": 48,
+      "player": "Hap Dupa Dulap",
+      "alliance": "TR1",
+      "score": 1616418,
+      "uid": "520964585"
+    },
+    {
+      "rank": 49,
+      "player": "Yojiaa_0603",
+      "alliance": "CAN",
+      "score": 1612495,
+      "uid": "481353865"
+    },
+    {
+      "rank": 50,
+      "player": "Mini...?",
+      "alliance": "CAN",
+      "score": 1612019,
+      "uid": "501173504",
+      "raw_name_in_game": "Miniʕ·˕·˵ྀིʔ",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 51,
+      "player": "Doffy",
+      "alliance": "CAN",
+      "score": 1583610,
+      "uid": "494355969"
+    },
+    {
+      "rank": 52,
+      "player": "BOZ",
+      "alliance": "CAN",
+      "score": 1578202,
+      "uid": "492013057"
+    },
+    {
+      "rank": 53,
+      "player": "XXX",
+      "alliance": "Qzx",
+      "score": 1575747,
+      "uid": "528107288"
+    },
+    {
+      "rank": 54,
+      "player": "老夫琴酒Gin",
+      "alliance": "CAN",
+      "score": 1563601,
+      "uid": "502878265"
+    },
+    {
+      "rank": 55,
+      "player": "Catoinn",
+      "alliance": "CAN",
+      "score": 1558917,
+      "uid": "493585923"
+    },
+    {
+      "rank": 56,
+      "player": "大漠王子 XIN",
+      "alliance": "Qzx",
+      "score": 1554991,
+      "uid": "464644639"
+    },
+    {
+      "rank": 57,
+      "player": "大漠布布BuBu",
+      "alliance": "Qzx",
+      "score": 1544319,
+      "uid": "468322433"
+    },
+    {
+      "rank": 58,
+      "player": "2EzY",
+      "alliance": "SKS",
+      "score": 1521434,
+      "uid": "483103321"
+    },
+    {
+      "rank": 59,
+      "player": "蒼狼王",
+      "alliance": "Qzx",
+      "score": 1514920,
+      "uid": "524928094"
+    },
+    {
+      "rank": 60,
+      "player": "Jesiin",
+      "alliance": "CAN",
+      "score": 1510571,
+      "uid": "455219542"
+    },
+    {
+      "rank": 61,
+      "player": "007 凌凌漆",
+      "alliance": "qax",
+      "score": 1491920,
+      "uid": "527031681"
+    },
+    {
+      "rank": 62,
+      "player": "MightyBachora",
+      "alliance": "CAN",
+      "score": 1474478,
+      "uid": "496164593"
+    },
+    {
+      "rank": 63,
+      "player": "Grassman",
+      "alliance": "CAN",
+      "score": 1468838,
+      "uid": "480800400"
+    },
+    {
+      "rank": 64,
+      "player": "222",
+      "alliance": "CAN",
+      "score": 1464104,
+      "uid": "545090172"
+    },
+    {
+      "rank": 65,
+      "player": "好酒不見",
+      "alliance": "qax",
+      "score": 1454572,
+      "uid": "518088832"
+    },
+    {
+      "rank": 66,
+      "player": "Boo ×x",
+      "alliance": "CAN",
+      "score": 1454134,
+      "uid": "498834965",
+      "raw_name_in_game": "Boo ×͜×",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 67,
+      "player": "秘書兮兮ᴳDYXx",
+      "alliance": "qax",
+      "score": 1448981,
+      "uid": "528041186",
+      "raw_name_in_game": "秘書兮兮๑Dʏ፝֟xx",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 68,
+      "player": "PoKOk野人",
+      "alliance": "qax",
+      "score": 1446561,
+      "uid": "548897386"
+    },
+    {
+      "rank": 69,
+      "player": "花枝丸~Leo~",
+      "alliance": "TR1",
+      "score": 1437190,
+      "uid": "501928081"
+    },
+    {
+      "rank": 70,
+      "player": "Flower",
+      "alliance": "CAN",
+      "score": 1437159,
+      "uid": "502648035"
+    },
+    {
+      "rank": 71,
+      "player": "卡布挖賽",
+      "alliance": "qax",
+      "score": 1429076,
+      "uid": "499383641"
+    },
+    {
+      "rank": 72,
+      "player": "院子裡的小草",
+      "alliance": "qax",
+      "score": 1427835,
+      "uid": "490921389"
+    },
+    {
+      "rank": 73,
+      "player": "蹋雪無痕",
+      "alliance": "qax",
+      "score": 1426260,
+      "uid": "493108714"
+    },
+    {
+      "rank": 74,
+      "player": "大威哥",
+      "alliance": "qax",
+      "score": 1422594,
+      "uid": "553023935"
+    },
+    {
+      "rank": 75,
+      "player": "焱◇夜火",
+      "alliance": "qax",
+      "score": 1419838,
+      "uid": "490986477"
+    },
+    {
+      "rank": 76,
+      "player": "両面宿儺",
+      "alliance": "CAN",
+      "score": 1415504,
+      "uid": "492168402"
+    },
+    {
+      "rank": 77,
+      "player": "Mαɾιʝα ᥫ᭡",
+      "alliance": "Qzx",
+      "score": 1408498,
+      "uid": "498966317"
+    },
+    {
+      "rank": 78,
+      "player": "露寶貝兒。˖°₊ᴳMIKA",
+      "alliance": "qax",
+      "score": 1407754,
+      "uid": "539265546",
+      "raw_name_in_game": "࿔露寶貝兒˖⸝⸝˖˚༊Mɪᴋᴀ",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 79,
+      "player": "~Valkyrie~",
+      "alliance": "CAN",
+      "score": 1405376,
+      "uid": "479195238"
+    },
+    {
+      "rank": 80,
+      "player": "BSHuang",
+      "alliance": "Qzx",
+      "score": 1396665,
+      "uid": "462545948"
+    },
+    {
+      "rank": 81,
+      "player": "overl0rd",
+      "alliance": "TR1",
+      "score": 1389767,
+      "uid": "482111089"
+    },
+    {
+      "rank": 82,
+      "player": "Freiergeld",
+      "alliance": "CAN",
+      "score": 1386817,
+      "uid": "500382938"
+    },
+    {
+      "rank": 83,
+      "player": "阿修羅_Asura",
+      "alliance": "Qzx",
+      "score": 1385266,
+      "uid": "461922807"
+    },
+    {
+      "rank": 84,
+      "player": "трахер",
+      "alliance": "CAN",
+      "score": 1378203,
+      "uid": "436799117"
+    },
+    {
+      "rank": 85,
+      "player": "꧁༺ʕ˖͜͡˖ʔмитя༻꧂",
+      "alliance": "CAN",
+      "score": 1377835,
+      "uid": "503304454"
+    },
+    {
+      "rank": 86,
+      "player": "天氣晴~",
+      "alliance": "qax",
+      "score": 1372882,
+      "uid": "527795818",
+      "raw_name_in_game": "天氣晴～",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 87,
+      "player": "Mr_Pєrchikッ",
+      "alliance": "CAN",
+      "score": 1370666,
+      "uid": "503238418"
+    },
+    {
+      "rank": 88,
+      "player": "_SRT//_",
+      "alliance": "TR1",
+      "score": 1367313,
+      "uid": "494441381"
+    },
+    {
+      "rank": 89,
+      "player": "°°Ghost°°",
+      "alliance": "CAN",
+      "score": 1363951,
+      "uid": "493128002",
+      "raw_name_in_game": "°°Ɠhօʂt°°",
+      "note": "名字與 uid-map 標準版不同（含裝飾字元，已自動對上）"
+    },
+    {
+      "rank": 90,
+      "player": "Slick Cat",
+      "alliance": "SKS",
+      "score": 1346172,
+      "uid": "497353728"
+    },
+    {
+      "rank": 91,
+      "player": "Sean桿桿咕",
+      "alliance": "Qzx",
+      "score": 1346020,
+      "uid": "464347604"
+    },
+    {
+      "rank": 92,
+      "player": "Frost Lashes",
+      "alliance": "CAN",
+      "score": 1340137,
+      "uid": "513585528"
+    },
+    {
+      "rank": 93,
+      "player": "JustMeSigningOff",
+      "alliance": "qax",
+      "score": 1339643,
+      "uid": "492462901"
+    },
+    {
+      "rank": 94,
+      "player": "x蜂窩性祖師爺x",
+      "alliance": "qax",
+      "score": 1337676,
+      "uid": "532487034"
+    },
+    {
+      "rank": 95,
+      "player": "꧁༒ConseRvatoR༒꧂",
+      "alliance": "CAN",
+      "score": 1335671,
+      "uid": "499388309"
+    },
+    {
+      "rank": 96,
+      "player": "Maleficent Maze",
+      "alliance": "CAN",
+      "score": 1335347,
+      "uid": "492758345"
+    },
+    {
+      "rank": 97,
+      "player": "刮昔甘",
+      "alliance": "qax",
+      "score": 1333530,
+      "uid": "527415306"
+    },
+    {
+      "rank": 98,
+      "player": "我好忙",
+      "alliance": "qax",
+      "score": 1329136,
+      "uid": "501873611"
+    },
+    {
+      "rank": 99,
+      "player": "雪花520",
+      "alliance": "qax",
+      "score": 1327986,
+      "uid": "491527744"
+    },
+    {
+      "rank": 100,
+      "player": "Karin果林",
+      "alliance": "TR1",
+      "score": 1324809,
+      "uid": "474107938"
+    }
+  ]
+},
 {
   "captured_at": "2026-11-01T00:32+08:00",
   "snapshot_at": "2026-10-31T23:30+08:00",
@@ -2210,7 +2950,7 @@ window.SNAPSHOTS = [
 ];
 window.UID_MAP = {
   "note": "玩家名字→UID 對照表。來源：聯盟 Google 試算表 + 克菈莉絲手填（2026-10-29）",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-01",
   "players": {
     "克菈莉絲Clarice": {
       "uid": "490956386",
@@ -2266,10 +3006,10 @@ window.UID_MAP = {
       "alliance_leaderboard": "qax",
       "note": "表上無句號「昌哥」"
     },
-    "人生無常，大腸包小腸": {
+    "在下小哥哥": {
       "uid": "493264266",
       "alliance_leaderboard": "qax",
-      "note": "10-29 改名自「在下小帥哥」；更早表上寫「在下小哥哥」"
+      "note": "11-01 改回「在下小哥哥」；10-29 曾用「人生無常，大腸包小腸」；更早「在下小帥哥」"
     },
     "₊大寶貝兒₊˖°₊": {
       "uid": "476417990",
@@ -2325,10 +3065,10 @@ window.UID_MAP = {
       "alliance_leaderboard": "qax",
       "note": "表上寫「pokok野人」(全小寫)"
     },
-    "聽說奇葩的名字比較容易中大獎": {
+    "院子裡的小草": {
       "uid": "490921389",
       "alliance_leaderboard": "qax",
-      "note": "10-29 改名自「院子裡的小草」"
+      "note": "11-01 改回「院子裡的小草」；10-29 曾用「聽說奇葩的名字比較容易中大獎」"
     },
     "卡布挖賽": {
       "uid": "499383641",
@@ -2397,10 +3137,10 @@ window.UID_MAP = {
       "alliance_leaderboard": "CAN",
       "note": "表上寫「天天Happy」"
     },
-    "ᵀᵘᶠᶠCookie": {
+    "Lady Dimitrescu": {
       "uid": "478493734",
       "alliance_leaderboard": "CAN",
-      "note": "表上寫「TuffCookie」"
+      "note": "11-01 改名自「ᵀᵘᶠᶠCookie」；表上寫「TuffCookie」"
     },
     "Toryˁ˙͈ᴗ˙͈ˀ?": {
       "uid": "499830547",
@@ -2411,9 +3151,10 @@ window.UID_MAP = {
       "uid": "479670199",
       "alliance_leaderboard": "CAN"
     },
-    "Morpheus": {
+    "NocturneEmperor": {
       "uid": "493217252",
-      "alliance_leaderboard": "CAN"
+      "alliance_leaderboard": "CAN",
+      "note": "11-01 改名自「Morpheus」"
     },
     "STUARTDAFREAKPOP": {
       "uid": "482873585",
@@ -2477,9 +3218,10 @@ window.UID_MAP = {
       "uid": "481353865",
       "alliance_leaderboard": "CAN"
     },
-    "Burock": {
+    "Doffy": {
       "uid": "494355969",
-      "alliance_leaderboard": "CAN"
+      "alliance_leaderboard": "CAN",
+      "note": "11-01 改名自「Burock」"
     },
     "老夫琴酒Gin": {
       "uid": "502878265",
@@ -2532,9 +3274,10 @@ window.UID_MAP = {
       "alliance_leaderboard": "CAN",
       "note": "10-31 改名自「ThorOdinson」"
     },
-    "Kindergeld": {
+    "Freiergeld": {
       "uid": "500382938",
-      "alliance_leaderboard": "CAN"
+      "alliance_leaderboard": "CAN",
+      "note": "11-01 改名自「Kindergeld」"
     },
     "трахер": {
       "uid": "436799117",
@@ -2555,9 +3298,10 @@ window.UID_MAP = {
       "uid": "513585528",
       "alliance_leaderboard": "CAN"
     },
-    "Mazikeen": {
+    "Maleficent Maze": {
       "uid": "492758345",
-      "alliance_leaderboard": "CAN"
+      "alliance_leaderboard": "CAN",
+      "note": "11-01 改名自「Mazikeen」"
     },
     "我就是浩克！": {
       "uid": "493577978",
@@ -2662,6 +3406,11 @@ window.UID_MAP = {
       "uid": "503238418",
       "alliance_leaderboard": "CAN",
       "note": "10-31 新進榜"
+    },
+    "꧁༒ConseRvatoR༒꧂": {
+      "uid": "499388309",
+      "alliance_leaderboard": "CAN",
+      "note": "11-01 新進榜"
     }
   }
 };
